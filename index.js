@@ -1,6 +1,6 @@
-const cards = ['Lisa', 'Kaitlin', 'Jan'];
+let cards = ['Lisa', 'Kaitlin', 'Jan'];
   function writeCards(cards) {
-    const array = [];
+    let array = [];
     for (let i = 0; i < cards.length; i++) {
     array.push(`Thank you, ${cards[i]}, for the wonderful surprise gift!`);
    debugger; 
